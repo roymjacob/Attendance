@@ -1,8 +1,13 @@
 Attendance::Application.routes.draw do
+  resources :attendance_entries
+
   get "home/index"
 
-  resources :employees
+  resources :employees do
+    resources :presences
+  end
   root :to => 'home#index'
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  day: 2012-12-17
+  in_time: 2012-12-17 22:59:29
+  out_time: 2012-12-17 22:59:29
+  present: false
+  employee: 
+
+two:
+  day: 2012-12-17
+  in_time: 2012-12-17 22:59:29
+  out_time: 2012-12-17 22:59:29
+  present: false
+  employee: 
